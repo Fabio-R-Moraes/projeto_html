@@ -1,0 +1,30 @@
+.imagem_fundo {
+    background-image: url('../imagens/fundo_site.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.fundo_branco {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+
+.secao {
+    min-height: 100vh;
+}
+
+.menu_spacing {
+    height: 6.5rem;
+}
+
+div.full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}

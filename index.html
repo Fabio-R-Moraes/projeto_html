@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--Conteudo da pasta assets-->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu fundo_branco">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <a href="#home">LOGO</a>
+        </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">My Grid</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">My Second Grid</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu_spacing"></div>
+    <section id="home" class="intro imagem_fundo secao">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Primeiros passos no HTML5, JavaScript e CSS3</h2>
+                <p>Através dos anos a internet passou por inúmeras mudanças. Os primeiros web sites que surgiram continham apenas conteúdo estático, ou seja, eram constituídos por páginas HTML expondo somente textos, imagens e links (sem muita interação com o usuário).</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/imagens/undraw_static_assets_rpm6.svg" alt="Imagem para Html5, Css3 e JavaScript">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="fundo_branco secao">
+        <div class="main-content top3-content">
+            <h2>Top 3 empregos</h2>
+            <p>A Associação Catarinense de Tecnologia (ACATE) revelou um estudo que mapeou os profissionais de TI e as competências mais demandados pelo mercado de trabalho. De acordo com o projeto, só no estado de Santa Catarina, as companhias da base tecnológica abrirão 16,6 mil vagas até 2023, e mais da metade são para desenvolvedores de software, os também conhecidos como DEVs.</p>
+            <p>As funções mais procuradas são: desenvolvedores Full Stack (22,63%), Back-end (18,43%) e Front-end (12,48%); analista de serviço e suporte de TI acabou aparecendo em 4° lugar (7,42%).</p>
+            <p>Na parte financeira, a instituição aponta que os salários ficam acima dos R$ 3 mil, sendo até 3 vezes maiores do que a média da indústria. "São postos que podem representar um ganho significativo para as famílias e auxiliar na retomada econômica no período pós-pandemia", adicionou o presidente da ACATE, Iomani Engelmann.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one imagem_fundo secao">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Minha Grid</h2>
+            <p class="grid-description">Veja cargos com mais vagas e maiores salários na área de TI</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Levantamento divulgado pelo Banco Nacional de Empregos (BNE) mostra as funções no setor de tecnologia da informação (TI) com mais vagas cadastradas e os cargos com os maiores salários</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>“A transformação digital teve um aumento considerável, principalmente devido à pandemia, na qual se teve uma demanda maior do mercado, sendo necessárias novas contratações. Mesmo após o período pós-pandêmico, o setor de TI continua em alta”, explica José Tortato, chief operating officer (COO) do BNE.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>“Esse aspecto é ótimo para o trabalhador desta área, pois, além da alta demanda, ainda surge a oportunidade de faturar melhores remunerações, visto que a grande maioria das funções tem salários altos”, aponta o COO do BNE.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one fundo_branco secao">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Uma breve descrição sobre as imagens dessa galeria.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="Imagem radômica do site Unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="Imagem radômica do site Unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="Imagem radômica do site Unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="Imagem radômica do site Unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="Imagem radômica do site Unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="Imagem radômica do site Unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one imagem_fundo secao">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Minha Segunda Grid</h2>
+            <p class="grid-description">3 Profissões na área de tecnologia</p>
+            <div class="grid">
+                <article>
+                    <h3>Engenheiro de Software</h3>
+                    <p>Este profissional tem como principal objetivo o desenvolvimento de softwares, assim como de programas computacionais.</p>
+                </article>
+                <article>
+                    <h3>Analista de Segurança de Informação</h3>
+                    <p>Um sistema após desenvolvido não pode ficar vulnerável a ataque hacker, a vazamentos de dados, por exemplo. </p>
+                </article>
+                <article>
+                    <h3>Analista de Sistemas</h3>
+                    <p>O profissional que atende ao cargo de analista de sistemas tem como propósito resolver problemas das redes, podendo tanto ser relacionados aos sistemas computacionais de hardware como de software. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="fundo_branco secao">
+        <div class="main-content top3-content">
+            <h2>Lista de Preços</h2>
+            <p>A tabela de preços é base de vendas para qualquer negócio. Sem precificar seu produto ou serviço, você coloca a empresa em risco de problemas financeiros e até falência.</p>
+            <p>O que vemos hoje é muito empreendedor fazendo uma média de valores, baseada apenas em suposições. Por um lado, compreendemos que nem todo pequeno empresário tem estrutura ou conhecimento prático para elaborar uma tabela eficiente. No entanto, dá para mudar essa realidade e a solução é até bem simples.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                            <th>Título 4</th>
+                            <th>Título 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro imagem_fundo secao">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contato para o HTML5, JavaScript e CSS3</h2>
+                <p>Formulário de contato em HTML5 e CSS3.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/imagens/undraw_profile_data_re_v81r.svg" alt="Imagem para formulário de contato...">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contate-me</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome"
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="fundo_branco">
+        <p><a rel="nofollow" target="_blank" href="#">Feito com <span class="coracao">♥</span> pelo Fábio Moraes</a></p>
+    </footer>
+    <a class="back-to-top" href="#">Top</a>
+</body>
+</html>
